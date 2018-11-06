@@ -1,19 +1,19 @@
-<h1>無私分享，只求有一份中工作謀求生活</h1>
-<h3>需要套件安裝</h3>
-1. Python3 [教學網址](https://www.python.org)
+<h3>Install</h3>
+1. Python3 [references](https://www.python.org)
 
-2. pip or pip3 [教學網址](https://pip.pypa.io/en/stable/installing/)
-3. 在"命令提示字元"輸入 pip install selenium [教學網址](https://pypi.org/project/selenium/)
-4. ChromeDriver - WebDriver for Chrome [教學網址](http://chromedriver.chromium.org/downloads)
-<h3>使用方式：</h3>
-爭取2018年11月11日優惠卷的程式碼，在"命令提示字元"輸入
-python3 mi_181111_tw.py 小米帳號 小米密碼
+2. pip or pip3 [references](https://pip.pypa.io/en/stable/installing/)
+3. cmd input: pip install selenium [references](https://pypi.org/project/selenium/)
+4. ChromeDriver - WebDriver for Chrome [references](http://chromedriver.chromium.org/downloads)
+<h3>Run：</h3>
+Get 2018/11/11_mi coupons，
+cmd input: python3 mi_181111_tw.py mi_id mi_pw
 
-範例： python3 mi_181111_tw.py mi@yahoo.com 12345
+Example： python3 mi_181111_tw.py mi@yahoo.com 12345
 
-備註：執行過程中會開啟Chrome軟體，並且看到小米網站。看到小米網站後，電腦會自動輸入自己小米帳號密碼。最後會到小米雙十一活動畫面，不斷點擊優惠卷。
-
-<h3>聯繫方式：</h3>
-Email: <a href="mailto:2590119197@qq.com">2590119197@qq.com</a>
-
+Note: Chrome software will be opened during the execution and you will see the Xiaomi website. After seeing the Xiaomi website, the computer will automatically enter your Xiaomi account password. Finally, I will go to the Xiaomi Double Eleven event screen and click on the coupon.
+<h3>Contact information：</h3>
+Email: <a href="mailto:bcs097115@gm.ntcu.edu.tw">bcs097115@gm.ntcu.edu.tw</a>
+Linkedin:<a href="https://www.linkedin.com/in/riitei/">riitei</a>
+QQ:2590119197
+Line:nation6238
 
