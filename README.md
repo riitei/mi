@@ -1,8 +1,8 @@
 <h3>Install</h3>
-1. Python3 [references](https://www.python.org)
-2. pip or pip3 [references](https://pip.pypa.io/en/stable/installing/)
-3. cmd input: pip install selenium [references](https://pypi.org/project/selenium/)
-4. ChromeDriver - WebDriver for Chrome [references](http://chromedriver.chromium.org/downloads)
+1. Python3 [references](https://www.python.org)<br>
+2. pip or pip3 [references](https://pip.pypa.io/en/stable/installing/)<br>
+3. cmd input: pip install selenium [references](https://pypi.org/project/selenium/)<br>
+4. ChromeDriver - WebDriver for Chrome [references](http://chromedriver.chromium.org/downloads)<br
 <h3>Run：</h3>
 Get 2018/11/11_mi coupons，
 cmd input: python3 mi_181111_tw.py mi_id mi_pw
