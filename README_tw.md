@@ -1,4 +1,3 @@
-<h1>無私分享，只求有一份中工作謀求生活</h1>
 <h3 title="yan">需要套件安裝</h3>
 1. Python3 [教學網址](https://www.python.org)<br>
 2. pip or pip3 [教學網址](https://pip.pypa.io/en/stable/installing/)<br>

@@ -20,7 +20,7 @@ class Mi:
         url = 'https://account.xiaomi.com/pass/serviceLogin?callback=http%3A%2F%2Fbuy.mi.com%2Ftw%2Flogin%2Fcallback%3Ffollowup%3Dhttps%253A%252F%252Fwww.mi.com%252Ftw%252Findex.html%26sign%3DNWQwMWFkYmFmYTNjYzJjOWE4OTAwMWM4ZDEyODFhYWVlYzZlNTY0Zg%2C%2C&sid=mi_xiaomitw&_locale=zh_TW&checkSafePhone=false'
         code = requests.get(url)  # 小米帳號登入 URL
         if code.status_code == requests.codes.ok:  # 判斷小米網站是否存活
-            print("無私分享，只求有一份中工作謀求生活\n開始執行")
+            print("開始執行")
             try:
                 driver.get(url)  # 小米帳號登入 URL
                 # 登入小米帳號
@@ -35,11 +35,11 @@ class Mi:
                     time.sleep(0.5)
                     driver.find_element_by_xpath('//*[@id="sec_1"]/div/div/ul/li/ol/li[2]/a').click()
                     count = count + 1
-                    print("無私分享，只求有一份中工作謀求生活\n執行次數 %d" % count)
+                    print("執行次數 %d" % count)
                     time.sleep(0.5)
                     driver.refresh()
                 driver.quit()
-                print("個無私分享，只求有一份中工作謀求生活\n結束")
+                print("結束")
 
             except Exception as e:
                 print(e)
